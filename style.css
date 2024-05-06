@@ -9,6 +9,7 @@
     background-color: bisque;
 }
 
+
 /* yaa button par hover active aur clicked hota hai */
 #myButton2{
     width: 100px;
@@ -24,8 +25,18 @@
 background-color: brown;
 }
 #myButton2:active{
-    background-color: yellow;
-    }
-    #myButton2.clicked{
-        background-color: palevioletred;
-        }
+background-color: yellow;
+}
+#myButton2.clicked{
+background-color: palevioletred;
+}
+
+
+/* yaa image button hai jis par click karna sai image change ho jai gi */
+#myImage{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    margin: 5px;
+}
+
