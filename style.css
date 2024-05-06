@@ -1,8 +1,31 @@
-#myButton{
+/* Yaa ek simple button function hai */
+#myButton1{
     width: 100px;
     height: 50px;
+    margin: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 18px;
     background-color: bisque;
 }
+
+/* yaa button par hover active aur clicked hota hai */
+#myButton2{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: green;
+    cursor: pointer;
+}
+#myButton2:hover{
+background-color: brown;
+}
+#myButton2:active{
+    background-color: yellow;
+    }
+    #myButton2.clicked{
+        background-color: palevioletred;
+        }
