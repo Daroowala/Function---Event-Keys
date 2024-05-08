@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Function Keys</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <!-- Yaa ek simple button function hai -->
     <button id="myButton1" onclick="showAlert">Click Here</button><br>
 
+
     <!-- yaa button par hover active aur clicked hota hai -->
     <button id="myButton2" onclick="changeColour">Change Colour</button><br>
 
+
     <!-- yaa image button hai jis par click karna sai image change ho jai gi -->
-    <img id="myImage" width="200px" src="image/nature-319.jpg" alt="Image Button" onclick="changeImage()">
+    <img id="myImage" src="image/nature-319.jpg" alt="" onclick="changeImage()"><br>
 
-
+    
+    <!-- ya ek calculater ka button hai -->
+    <input type="text" id="display">
+    <div>
+        <button onclick="Number('7')" class="btn">7</button>
+        <button onclick="Number('8')" class="btn">8</button>
+        <button onclick="Number('9')" class="btn">9</button>
+        <button onclick="resultClear('C')" id="clear">C</button>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>

@@ -15,7 +15,19 @@ function changeImage(){
     var image = document.getElementById("myImage");
     if (image.src.match("image/nature-319.jpg")){
         image.src = "image/th.jpeg";
-    } else {
+    } 
+    else {
         image.src = "image/nature-319.jpg";
     }
 }
+
+
+// ya ek calculater ka button hai 
+function Number(num){
+var result = document.getElementById('display')
+result.value += num
+}
+function resultClear(){
+    var result = document.getElementById('display')
+    result.value = ""
+    }

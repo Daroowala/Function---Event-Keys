@@ -40,3 +40,22 @@ background-color: palevioletred;
     margin: 5px;
 }
 
+
+/* ya ek calculater ka button hai  */
+#display{
+    width: 250px;
+    height: 40px;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+#clear{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: red;
+    font-size: larger;
+}
+
