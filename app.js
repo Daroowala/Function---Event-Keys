@@ -31,3 +31,12 @@ function resultClear(){
     var result = document.getElementById('display')
     result.value = ""
     }
+    function addValue(){
+        var inputValue =document.getElementById("userInput").value
+        if (inputValue !== "") {
+            var li = document.createElement("li")
+            li.textContent = inputValue
+            document.getElementById("itemList").appendChild(li)
+            document.getElementById("userInput").value = ""
+        }
+    }
